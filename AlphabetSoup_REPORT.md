@@ -8,6 +8,8 @@ In the starter code the accuracy achieved was = 72.69%
 
 ![0.PNG](Images/Alphabet_Soup.PNG)
 
+
+
 For the 1st optimization, the number of Epochs were reduced from 100 to 50. This improved the accuracy to = 73%
 
 ![1.PNG](Images/1st_Optimisation.PNG)
@@ -16,6 +18,9 @@ For the 1st optimization, the number of Epochs were reduced from 100 to 50. This
 
 ![1a.PNG](Images/1st_Optimisation_accuracy.PNG)
 
+
+
+
 For the 2nd optimization, 2 more hidden layers were added and the number of Epochs was increased to 150. This further improved the accuracy to = 73.07%
 
 ![2.PNG](Images/2nd_Optimisation.PNG)
@@ -23,6 +28,8 @@ For the 2nd optimization, 2 more hidden layers were added and the number of Epoc
 
 
 ![2a.PNG](Images/2nd_Optimisation_accuracy.PNG)
+
+
 
 
 For the 3rd and last optimization, the "USE_CASE" feature was dropped. Hidden layers were similar to the 2nd optimization, however the number of Epochs was increased to 200. This resulted in a decrease in accuracy = 72.5%
@@ -35,7 +42,9 @@ For the 3rd and last optimization, the "USE_CASE" feature was dropped. Hidden la
 
 
 
-  * **Data Preprocessing**
+
+
+* **Data Preprocessing**
     **What variable(s) are considered the target(s) for your model?**
 
 "IS_SUCCESSFUL" was considered a target for this model; to determine if the funding would be successful or not.
