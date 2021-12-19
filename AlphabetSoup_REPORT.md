@@ -36,33 +36,33 @@ For the 3rd and last optimization, the "USE_CASE" feature was dropped. Hidden la
 
 
   * **Data Preprocessing**
-    * **What variable(s) are considered the target(s) for your model?**
+    **What variable(s) are considered the target(s) for your model?**
 
 "IS_SUCCESSFUL" was considered a target for this model; to determine if the funding would be successful or not.
 
-    * **What variable(s) are considered to be the features for your model?**
+    **What variable(s) are considered to be the features for your model?**
 
 All other columns in the dataframe, other than "IS_SUCCESSFUL" were considered features for the model.
 
 
-    * **What variable(s) are neither targets nor features, and should be removed from the input data?**
+    **What variable(s) are neither targets nor features, and should be removed from the input data?**
 
 The identification data such as "EIN" and "NAME" columns were considered neither features or targets and were removed for this model.
 
  * **Compiling, Training, and Evaluating the Model**
 
 
-    * **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
+    **How many neurons, layers, and activation functions did you select for your neural network model, and why?**
 
 Initially I selected 2 hidden layers and an output layer to evaluate the accuracy of the model.
 Then I optimised by adjusting the Epoch numbers and increasing the hidden layers to see if it affected the model.
 
 
-    * **Were you able to achieve the target model performance?**
+    **Were you able to achieve the target model performance?**
 
 No, I did see an improvement, but I did not achieve an accuracy close to 75%
 
-    * **What steps did you take to try and increase model performance?**
+    **What steps did you take to try and increase model performance?**
 
 I increased the number of Epochs to train the model further. I also added more layers.
 
