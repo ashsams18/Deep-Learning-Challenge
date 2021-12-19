@@ -4,13 +4,13 @@ The assignment required a Deep Learning Model to predict if applicants for fundi
 
 2. **Results**: Using bulleted lists and images to support your answers, address the following questions.
 
-In the starter code the accuracy achieved was = 72.69%
+In the starter code (0_AlphabetSoupCharity) the accuracy achieved was = 72.69%
 
 ![0.PNG](Images/Alphabet_Soup.PNG)
 
 
 
-For the 1st optimization, the number of Epochs were reduced from 100 to 50. This improved the accuracy to = 73%
+For the 1st optimization (1_AlphabetSoupCharity_Optimzation), the number of Epochs were reduced from 100 to 50. This improved the accuracy to = 73%
 
 ![1.PNG](Images/1st_Optimisation.PNG)
 
@@ -21,7 +21,7 @@ For the 1st optimization, the number of Epochs were reduced from 100 to 50. This
 
 
 
-For the 2nd optimization, 2 more hidden layers were added and the number of Epochs was increased to 150. This further improved the accuracy to = 73.07%
+For the 2nd optimization (2_AlphabetSoupCharity_Optimzation), 2 more hidden layers were added and the number of Epochs was increased to 150. This further improved the accuracy to = 73.07%
 
 ![2.PNG](Images/2nd_Optimisation.PNG)
 
@@ -32,7 +32,7 @@ For the 2nd optimization, 2 more hidden layers were added and the number of Epoc
 
 
 
-For the 3rd and last optimization, the "USE_CASE" feature was dropped. Hidden layers were similar to the 2nd optimization, however the number of Epochs was increased to 200. This resulted in a decrease in accuracy = 72.5%
+For the 3rd and last optimization (3_AlphabetSoupCharity_Optimzation), the "USE_CASE" feature was dropped. Hidden layers were similar to the 2nd optimization, however the number of Epochs was increased to 200. This resulted in a decrease in accuracy = 72.5%
 
 ![3.PNG](Images/3rd_Optimisation.PNG)
 
