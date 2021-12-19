@@ -6,32 +6,32 @@ The assignment required a Deep Learning Model to predict if applicants for fundi
 
 In the starter code the accuracy achieved was = 72.69%
 
-![0.jpg](Images/Alphabet_Soup.png)
+![0.png](Images/Alphabet_Soup.png)
 
 For the 1st optimization, the number of Epochs were reduced from 100 to 50. This improved the accuracy to = 73%
 
-![1.jpg](Images/1st_Optimisation.png)
+![1.png](Images/1st_Optimisation.png)
 
 
 
-![1a.jpg](Images/1st_Optimisation_accuracy.png)
+![1a.png](Images/1st_Optimisation_accuracy.png)
 
 For the 2nd optimization, 2 more hidden layers were added and the number of Epochs was increased to 150. This further improved the accuracy to = 73.07%
 
-![2.jpg](Images/2nd_Optimisation.png)
+![2.png](Images/2nd_Optimisation.png)
 
 
 
-![2a.jpg](Images/2nd_Optimisation_accuracy.png)
+![2a.png](Images/2nd_Optimisation_accuracy.png)
 
 
 For the 3rd and last optimization, the "USE_CASE" feature was dropped. Hidden layers were similar to the 2nd optimization, however the number of Epochs was increased to 200. This resulted in a decrease in accuracy = 72.5%
 
-![3.jpg](Images/3rd_Optimisation.png)
+![3.png](Images/3rd_Optimisation.png)
 
 
 
-![3a.jpg](Images/3rd_Optimisation_accuracy.png)
+![3a.png](Images/3rd_Optimisation_accuracy.png)
 
 
 
